@@ -7,34 +7,40 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 70%;
-            height: 184px;
+            width: 51%;
+            height: 190px;
             border: 1px solid #000000;
             background-color: #9999FF;
         }
         .auto-style2 {
-            width: 470px;
+            width: 333px;
+        }
+        .auto-style3 {
+            height: 64px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <table cellpadding="3" cellspacing="4" class="auto-style1">
+            <table cellpadding="3" cellspacing="4" class="auto-style1" style="text-align: center; margin-top: 50px; margin-right: auto; margin-left: auto;">
                 <tr>
-                    <td class="auto-style2">User Name </td>
-                    <td>
+                    <td colspan="2" style="text-align: center">Admin Login</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="text-align: center">User Name </td>
+                    <td style="text-align: center">
                         <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">Password</td>
-                    <td>
+                    <td class="auto-style2" style="text-align: center">Password</td>
+                    <td style="text-align: center">
                         <asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="text-align: center">
+                    <td class="auto-style3" colspan="2" style="text-align: center">
                         <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="submit" />
                     </td>
                 </tr>
