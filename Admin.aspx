@@ -46,6 +46,11 @@
                 </tr>
             </table>
         </div>
+        <p>
+            &nbsp;</p>
+        <p>
+            <asp:Label ID="lblDetails" runat="server" Text="Details :"></asp:Label>
+        </p>
     </form>
 </body>
 </html>

@@ -16,7 +16,9 @@ namespace Job_Portal
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-
+            String name = txtName.Text;
+            String pass = txtPass.Text;
+            lblDetails.Text += " <br> name : " + name + " <br> pass : " + pass;
         }
     }
 }
