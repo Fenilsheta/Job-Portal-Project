@@ -41,7 +41,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style3" colspan="2" style="text-align: center">
-                        <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="submit" />
+                        <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="submit" Width="94px" />
                     </td>
                 </tr>
             </table>
