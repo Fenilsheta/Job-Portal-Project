@@ -49,7 +49,7 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:Label ID="lblDetails" runat="server" Text="Details :"></asp:Label>
+            <asp:Label ID="lblDetails" runat="server" Text="Details:"></asp:Label>
         </p>
     </form>
 </body>
