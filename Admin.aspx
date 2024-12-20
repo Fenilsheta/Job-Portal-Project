@@ -13,7 +13,7 @@
             background-color: #9999FF;
         }
         .auto-style3 {
-            height: 64px;
+            height: 45px;
         }
         .auto-style6 {
             width: 494px;
