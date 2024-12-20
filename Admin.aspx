@@ -13,7 +13,7 @@
             background-color: #9999FF;
         }
         .auto-style2 {
-            width: 228px;
+            width: 373px;
         }
         .auto-style3 {
             height: 64px;
@@ -23,7 +23,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table cellpadding="3" cellspacing="4" class="auto-style1" style="text-align: center; margin-top: 50px; margin-right: auto; margin-left: auto;">
+            <table cellpadding="3" cellspacing="4" class="auto-style1" style="text-align: center; margin-top: 50px; margin-right: auto; margin-left: auto; background-color: #99FF99;">
                 <tr>
                     <td colspan="2" style="text-align: center">Admin Login</td>
                 </tr>
