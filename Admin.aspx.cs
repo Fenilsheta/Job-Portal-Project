@@ -18,7 +18,7 @@ namespace Job_Portal
         {
             String name = txtName.Text;
             String pass = txtPass.Text;
-            lblDetails.Text += " <br> name : " + name + " <br> pass : " + pass;
+            lblDetails.Text += " <br> Name : " + name + " <br> Password : " + pass;
         }
     }
 }
