@@ -8,7 +8,7 @@
     <style type="text/css">
         .auto-style1 {
             width: 51%;
-            height: 223px;
+            height: 190px;
             border: 1px solid #000000;
             background-color: #9999FF;
         }
