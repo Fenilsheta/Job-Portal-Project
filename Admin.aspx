@@ -12,11 +12,14 @@
             border: 1px solid #000000;
             background-color: #9999FF;
         }
-        .auto-style2 {
-            width: 228px;
-        }
         .auto-style3 {
             height: 64px;
+        }
+        .auto-style6 {
+            width: 494px;
+        }
+        .auto-style7 {
+            width: 83%;
         }
     </style>
 </head>
@@ -28,14 +31,14 @@
                     <td colspan="2" style="text-align: center">Admin Login</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2" style="text-align: center">User Name </td>
-                    <td style="text-align: center">
+                    <td class="auto-style6" style="text-align: center">User Name </td>
+                    <td style="text-align: center" class="auto-style7">
                         <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2" style="text-align: center">Password</td>
-                    <td style="text-align: center">
+                    <td class="auto-style6" style="text-align: center">Password</td>
+                    <td style="text-align: center" class="auto-style7">
                         <asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
                     </td>
                 </tr>
