@@ -28,7 +28,7 @@
         <div>
             <table cellpadding="3" cellspacing="4" class="auto-style1" style="text-align: center; margin-top: 50px; margin-right: auto; margin-left: auto; background-color: #99FF99;">
                 <tr>
-                    <td colspan="2" style="text-align: center">Admin Login</td>
+                    <td colspan="2" style="text-align: center">Admin log in</td>
                 </tr>
                 <tr>
                     <td class="auto-style6" style="text-align: center">User Name </td>
